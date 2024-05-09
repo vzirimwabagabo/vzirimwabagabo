@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="assign.css">
+</head>
+<body class="background" >
+    <div class="maincontainer">
+        <h1 class="main_heading">Contact</h1>
+        <p class="para" style="color: rgb(26, 24, 24);">Please use this form to send your message to us</p>
+
+
+        <div class="formain">
+            <form action="connect.php" method="post"   target="_blank">
+                <div class="labels">
+                    <label for="FirstName">FirstName</label><br>
+                    <input type="text" id="FirstName" name="FirstName" required><br>
+                    <label for="LastName">LastName</label><br>
+                    <input type="text" id="LastName" name="LastName" required>
+                </div>
+                
+                <div class="labels">
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" id="gender" value="Male" name="Gender" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="gender" value="Female" name="Gender" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="gender" value="Other" name="Gender" required>
+                    <label for="Other">Other</label>
+                </div>
+
+                <div class="labels">
+                    <label for="Name">EmailAddress</label> <br>
+                    <input type="EmailAddress" id="EmailAddress" name="EmailAddress" required >
+                </div>
+
+                <div class="labels">
+                    <label for="Name">Message</label> <br>
+                    <input type="comments" id="message" name="Message" required>
+                </div>
+                <div class="labels">
+                    <label for="Name">Telephone</label> <br>
+                    <input type="text" id="Telephone" name="Telephone" required>
+                </div>
+                <p class="labels">
+                    AboutYou
+                    <textarea name="textarea" cols="50" rows="7" name="AboutYou" ></textarea>
+                </p>
+                <div class="BTN">
+                <button type="submit">SUBMIT</button>
+               </div>
+          
+
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
+

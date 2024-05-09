@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 90%;
+
+}
+.container{
+    margin-left: 400px;
+}
+.img{
+    width: 100%;
+}
+.para{
+    color: #3ab6df;
+    font-size: 1.6rem;
+    font-family: Arial;
+
+}
+.introduction{
+    display: flex;
+    gap: .9em;
+    align-items: last baseline;
+}
+.main_heading{
+    color: black;
+    font-size: 5rem;
+    font-family: Arial;
+}
+.header_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 3px solid yellow; */
+    padding: 0;
+}
+.link_items{
+    padding: 1.2em;
+    margin: 0 .2em 0 0;
+}
+.links{
+    padding: 0;
+    margin: 0;
+    color: rgb(219, 14, 14);
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgba(63, 32, 68, 0.708);
+
+}
+.upper--upper{
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 2em;
+    align-items: flex-start;
+    flex-grow: 1;
+    margin-bottom: 1.2em;
+    color: rgb(19, 10, 10);
+
+    
+    
+}
+.uppers_links{
+    /* border: 2px solid black; */
+    margin-bottom: 1em;
+    margin-top: 0;
+    
+}
+.upper{
+    text-transform: uppercase;
+}
+.dnt_btn{
+    background:  #3ab6df ;
+    color: white;
+    font-size: 1.5rem;
+    padding: .1em;
+    border: none;
+}
+
+.row{
+    display: flex;
+}
+/* .header ::after{
+    content: "";
+    width: 100%;
+    height: 20px;
+    background: black;
+    position: absolute;
+
+} */
+.intro{
+    width: 40%;
+    font-size: 1.3rem;
+    font-family: Arial;
+}
+.email{
+    color: #3ab6df;
+    text-decoration: underline;
+}
+/* The image styles */
+.title_header{
+    font-size: 2rem;
+    margin:0 0 .1em 0;
+}
+.text{
+   
+    
+    width: 60%;
+ 
+}
+.identy{
+   margin-top: 0;
+   text-align: left;
+   font-size: 1.5rem;
+   width: 100%;
+}
+.persons{
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    /* border: 2px solid black; */
+    width: 50%;
+}
+.column{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2em;
+    
+    width: 100%;
+}
+
+/* form css */
+
+.labels{
+    font-size: 1.5em;
+    margin: .5em;
+    color: black;
+}
+.inputs{
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-top: 1.3em;
+
+}
+button{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(0, 255, 8);
+    border: 2px solid #3ac6df;
+    color: black;
+    font-size: 15px;
+}
+
+.maincontainer{
+    width: 50%;
+    margin:0 auto;
+    background: linear-gradient(rgb(0, 255, 204),white,yellow,blue);
+    padding: 2em;
+    border-radius: 15px;
+}
+.background{
+    background: #242525;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
