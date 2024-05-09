@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @vzirimwabagabo
+- 👋 Hi, I’m Valentin Zirimwabagabo
 - 👀 I’m interested in WebDevelopment
 - 🌱 I’m currently learning computer Science
 - 💞️ I’m looking to collaborate on This job
